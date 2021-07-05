@@ -1,0 +1,554 @@
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0; }
+
+.landing-page {
+  width: 100%;
+  height: 950px;
+  background: #222 0% 0% no-repeat padding-box; }
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-top: 40px; }
+
+.menu, .logo, .contact {
+  width: 33.333%; }
+
+.rectangle {
+  width: 80px;
+  height: 80px;
+  background-color: #ffffff;
+  margin-right: 28px; }
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.list li {
+  list-style: none;
+  color: #ffffff; }
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.rectangle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px; }
+
+.name {
+  letter-spacing: 2.6px;
+  max-width: 54px;
+  color: #ffffff; }
+
+.landing-info {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-self: space-around;
+  flex-direction: column;
+  margin-top: 200px; }
+
+.landing-comment {
+  text-align: center;
+  letter-spacing: 2.8px;
+  color: #FEFEFE; }
+
+.landing-header {
+  text-align: center;
+  max-width: 660px;
+  letter-spacing: -3.6px;
+  font-size: 60px;
+  font-family: 'Old Standard TT', serif;
+  margin: 42px 0 32px 0; }
+
+.tour-button {
+  background: #BEAD8E 0% 0% no-repeat padding-box;
+  width: 216px;
+  height: 60px;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 2.8px;
+  margin-right: 30px; }
+
+.info-button {
+  background: #BEAD8E00 0% 0% no-repeat padding-box;
+  border: 2px solid #FFFFFF33;
+  width: 216px;
+  height: 60px;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 2.8px; }
+
+.reservation {
+  background: #ffffff;
+  width: 1170px;
+  height: 152px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  top: -76px;
+  position: relative;
+  max-width: 100%; }
+
+.arrival, .departure, .guest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; }
+
+.reservation label {
+  letter-spacing: 0px;
+  color: #222222;
+  font-size: 16px; }
+
+.check-availability {
+  width: 250px;
+  height: 60px;
+  background: #BEAD8E 0% 0% no-repeat padding-box;
+  text-align: center;
+  letter-spacing: 2.8px;
+  color: #ffffff;
+  border: none; }
+
+.about-us {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  max-width: 1124px; }
+
+.about-img {
+  width: 612px;
+  height: 552px;
+  background: #B4B4B4 0% 0% no-repeat padding-box;
+  max-width: 55%;
+  margin-right: 61px; }
+
+.about-info {
+  max-width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 500px; }
+
+.about-title {
+  text-align: left;
+  letter-spacing: 2.8px;
+  color: #777777; }
+
+.about-info h2 {
+  text-align: left;
+  letter-spacing: -2.4px;
+  color: #111111;
+  font-size: 80px; }
+
+.about-text {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #777777; }
+
+.about-info button {
+  width: 216px;
+  height: 60px;
+  background: #BDAC8D 0% 0% no-repeat padding-box;
+  border: none;
+  color: #ffffff; }
+
+.facilities {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 120px 375px;
+  max-width: 100%; }
+
+.facilities-header p {
+  text-align: center;
+  letter-spacing: 2.8px;
+  color: #BDAC8D; }
+
+.facilities-header h2 {
+  text-align: center;
+  letter-spacing: -2.4px;
+  color: #222222;
+  font-size: 80px; }
+
+.facilities-cards {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 61px auto;
+  flex-wrap: wrap; }
+
+.facilities-cards > * {
+  width: 370px;
+  height: 349px;
+  background: #F4F4F4 0% 0% no-repeat padding-box;
+  margin: 0 30px 30px; }
+
+.rooms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 1180px; }
+
+.rooms-title p {
+  text-align: left;
+  letter-spacing: 2.8px;
+  color: #777777; }
+
+.rooms-title h2 {
+  text-align: left;
+  letter-spacing: -2.4px;
+  color: #222222;
+  font-size: 80px; }
+
+.rooms-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%; }
+
+.rooms-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 61px; }
+
+.rooms-cards > * {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.room-img {
+  width: 370px;
+  height: 240px;
+  background: #E9E9E9 0% 0% no-repeat padding-box; }
+
+.room-details {
+  width: 310px;
+  height: 50px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 8px 16px #8A8A8A0A;
+  top: -25px;
+  position: relative; }
+
+.room-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 50px; }
+
+.room-booking {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px; }
+
+.room-info h3 {
+  text-align: center;
+  text-align: center;
+  letter-spacing: -0.72px;
+  color: #222222;
+  font-size: 24px;
+  margin-bottom: 16px; }
+
+.room-info p {
+  text-align: center;
+  letter-spacing: 0px;
+  color: #777777; }
+
+.room-booking p {
+  text-align: right;
+  letter-spacing: 0px;
+  color: #BEAD8E; }
+
+.room-booking a {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #BDBDBD;
+  text-decoration: none; }
+
+.statistics {
+  width: 100%;
+  background: #222222 0% 0% no-repeat padding-box; }
+
+.statistics-data {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 0;
+  width: 60%;
+  margin: auto; }
+
+.statistics-data > * h2 {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-size: 60px; }
+
+.statistics-data > * p {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #999999;
+  font-size: 16px; }
+
+.feedback {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 120px auto; }
+
+.feedback-header {
+  margin-bottom: 61px; }
+
+.feedback-header p {
+  text-align: center;
+  letter-spacing: 2.8px;
+  color: #777777; }
+
+.feedback-header h2 {
+  text-align: center;
+  letter-spacing: -2.4px;
+  color: #222222;
+  font-size: 80px; }
+
+.feedback-cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.feedback-cards > * {
+  width: 370px;
+  height: 456px;
+  box-shadow: 0px 14px 24px #BEAD8E33;
+  padding: 60px 25px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+
+.feedback-img-circle {
+  width: 150px;
+  height: 150px;
+  background: #D5D5D5 0% 0% no-repeat padding-box;
+  border-radius: 50%; }
+
+.feedback-check {
+  width: 46px;
+  height: 46px;
+  border: 4px solid var(--unnamed-color-ffffff);
+  background: #BDAC8D 0% 0% no-repeat padding-box;
+  border: 4px solid #FFFFFF;
+  border-radius: 50%;
+  position: relative;
+  top: -150px;
+  right: -104px; }
+
+.feedback-cards > * h3 {
+  text-align: center;
+  letter-spacing: -0.9px;
+  color: #222222;
+  font-size: 30px; }
+
+.feedback-cards > * h5 {
+  text-align: center;
+  letter-spacing: 2.8px;
+  color: #BDAC8D; }
+
+.feedback-cards > * p {
+  text-align: center;
+  letter-spacing: 0px;
+  color: #777777; }
+
+.video {
+  width: 100%;
+  background: #E0E0E0 0% 0% no-repeat padding-box;
+  height: 700px;
+  margin: 120px 0; }
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1180px;
+  margin: 120px auto; }
+
+.blog-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 62px; }
+
+.blog-img {
+  width: 370px;
+  height: 260px;
+  background: #E1E1E1 0% 0% no-repeat padding-box; }
+
+.blog-cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%; }
+
+.blog-card-data {
+  margin: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 150px; }
+
+.blog-card-date {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #777777; }
+
+.blog-card-title {
+  text-align: left;
+  letter-spacing: -0.72px;
+  color: #111111;
+  font-size: 24px; }
+
+.blog-card-info {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #777777; }
+
+.carousel-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 120px 0 0 0; }
+
+.carousel-images > * {
+  width: 16.66%;
+  height: 320px;
+  background: #E5E5E5 0% 0% no-repeat padding-box; }
+
+.pre-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  background: #151515 0% 0% no-repeat padding-box;
+  color: #ffffff; }
+
+.hotel-miranda-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+
+.hotel-miranda-rectangle {
+  width: 80px;
+  height: 80px;
+  background: #BEAD8E 0% 0% no-repeat padding-box;
+  box-shadow: 0px 14px 24px #8B8B8B1A;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  margin-right: 30px; }
+
+.hotel-miranda-info {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #BABABA; }
+
+.hotel-miranda {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: 353px;
+  margin-top: 100px; }
+
+.hotel-miranda-social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%; }
+
+.hotel-miranda-social > * {
+  height: 40px;
+  width: 40px;
+  background: #2E2E2E 0% 0% no-repeat padding-box; }
+
+.services {
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center; }
+
+.contact {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: 353px; }
+
+.services h2 {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-size: 24px; }
+
+.services ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column; }
+
+.contact-phone, .contact-email, .contact-location {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.contact-img {
+  width: 40px;
+  height: 40px;
+  background-color: #777777;
+  margin-right: 10px; }
+
+.footer {
+  height: 80px;
+  background: #151515 0% 0% no-repeat padding-box;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 16px; }
+
+.footer a {
+  text-decoration: none;
+  color: #ffffff; }
